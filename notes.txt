@@ -1,0 +1,6 @@
+npx create-next-app@latest
+
+npm install @mui/material-nextjs @emotion/cache
+npm install react-hook-form  @hookform/resolvers  zod
+
+

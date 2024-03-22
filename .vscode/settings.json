@@ -1,0 +1,78 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Menlo, Monaco, Consolas, 'Droid Sans Mono', 'Inconsolata', 'Courier New', monospace",
+    "editor.fontWeight": "normal",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingIndent": "indent",
+    "eslint.alwaysShowStatus": true,
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.run": "onSave",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "json5",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "ejs"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.DS_Store": true,
+        "**/.factorypath": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "search.exclude": {
+        "coverage": true,
+        "node_modules": true,
+        "yarn.lock": true,
+        "cypress": true
+    }
+}
